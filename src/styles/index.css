@@ -65,6 +65,19 @@ input[type="password"]::-ms-clear {
     .modal-screen {
         display: none;
     }
+
+    .header-section {
+        @apply bg-[rgba(165,41,33,0.25)] p-3 rounded-[25px] text-center text-[#A52921] font-lemon;
+    }
+
+    .desc-section {
+        @apply font-lemon text-center h-[4rem] text-[28px];
+    }
+
+    .line-desc-section {
+        border-bottom: 4px solid #A52921;
+        @apply w-[120px]
+    }
 }
 
 @media (max-width: 1028px) {

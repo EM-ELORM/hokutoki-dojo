@@ -1,0 +1,23 @@
+@tailwind components;
+
+@layer components {
+    .pos-about-us {
+        @apply flex flex-col items-center mt-[3.5rem];
+    }
+
+    .content-about-us {
+        @apply flex flex-wrap justify-center gap-x-10 gap-y-10;
+    }
+
+    .block-content {
+        @apply flex w-[45%] text-[20px] min-w-[300px] gap-x-10;
+    }
+
+    .icon {
+        @apply flex justify-start w-[70px] h-[70px] bg-cover flex-shrink-0;
+    }
+
+    .last-item {
+        @apply w-[45%] flex justify-center;
+    }
+}
