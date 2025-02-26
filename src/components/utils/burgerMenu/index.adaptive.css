@@ -1,0 +1,6 @@
+@media (max-width: 425px) {
+    .burger {
+        margin: 43px auto;
+        width: 35px;
+    }
+}

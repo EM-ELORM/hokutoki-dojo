@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+    .text-main {
+        @apply mt-[9.5rem]
+    }
+
+    .text-h1 {
+        @apply text-[65px]
+    }
+
+    .text-p {
+        @apply text-[34px]
+    }
+}
+
+@media (max-width: 525px) {
+    .text-main {
+        @apply mt-[4.5rem]
+    }
+
+    .text-h1 {
+        @apply text-[55px]
+    }
+
+    .text-p {
+        @apply text-[24px]
+    }
+}
+
+@media (max-width: 325px) {
+    .text-h1 {
+        @apply text-[45px]
+    }
+
+    .text-p {
+        @apply text-[20px]
+    }
+}
