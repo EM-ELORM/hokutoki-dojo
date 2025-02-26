@@ -1,0 +1,23 @@
+@tailwind components;
+
+@layer components {
+    .bg-main {
+        @apply min-h-[56.8rem] bg-[url('/img/svg/main.svg')] bg-center bg-cover
+    }
+
+    .text-main {
+        @apply text-center mt-[6.5rem] font-lemon
+    }
+
+    .text-h1 {
+        @apply text-[75px] text-[#A52921]
+    }
+
+    .text-p {
+        @apply text-[44px] text-white
+    }
+
+    .btn-center {
+        @apply flex justify-center items-center mt-7
+    }
+}

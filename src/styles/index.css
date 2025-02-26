@@ -1,6 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+@font-face {
+    font-family: 'Lemon';
+    src: url('/fonts/lemonmilkrusbydaymarius.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@layer base {
+    a {
+        text-decoration: none;
+    }
+}
+
+@layer components {
+    .main-container {
+        @apply w-[1028px]
+    }
+
+    .main-center {
+        @apply flex items-center justify-center
+    }
+
+    .btn-red-a {
+        @apply flex justify-center items-center bg-[#A52921] text-white text-center w-[320px] h-[60px] font-lemon text-[16px] rounded-[5px]
+    }
+
+    .btn-red {
+        @apply bg-[#A52921] text-white text-center w-[320px] h-[60px] font-lemon text-[16px] rounded-[5px]
+    }
 }

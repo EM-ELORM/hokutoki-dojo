@@ -1,0 +1,19 @@
+@tailwind components;
+
+@layer components {
+    .header {
+        @apply flex justify-between
+    }
+
+    .logo {
+        @apply mt-[1rem] w-[228px] h-[233px] bg-[url('/img/png/logo.png')] bg-cover bg-center
+    }
+
+    .nav-sec {
+        @apply flex justify-between w-[33%] mt-[2.5rem] text-[#2B2A28]
+    }
+
+    .nav-hover {
+        @apply hover:text-[#C0241B] cursor-pointer
+    }
+}

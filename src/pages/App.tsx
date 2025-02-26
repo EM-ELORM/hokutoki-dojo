@@ -1,5 +1,10 @@
-export const App = () => {
+import {FC} from "react";
+import {Main} from "../components/main/Main.tsx";
+
+export const App: FC = () => {
     return (
-        <div>Разработка hokutoki dojo</div>
+        <>
+            <Main/>
+        </>
     )
 }
