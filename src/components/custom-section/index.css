@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+    .center-custom-section {
+        @apply flex flex-col justify-center items-center
+    }
+}

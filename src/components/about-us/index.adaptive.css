@@ -1,0 +1,5 @@
+@media (max-width: 1028px) {
+    .block-content {
+        @apply gap-y-10 flex-col items-center
+    }
+}
