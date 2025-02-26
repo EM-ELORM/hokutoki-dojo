@@ -16,4 +16,8 @@
     .nav-hover {
         @apply hover:text-[#C0241B] cursor-pointer
     }
+
+    .pos-burger {
+        display: none;
+    }
 }

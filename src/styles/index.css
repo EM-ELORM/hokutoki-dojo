@@ -9,6 +9,29 @@
     border: 0;
 }
 
+:root {
+    --size-main-line: 130px;
+}
+
+html, body {
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+    display: none;
+}
+
 @font-face {
     font-family: 'Lemon';
     src: url('/fonts/lemonmilkrusbydaymarius.otf') format('opentype');
@@ -37,5 +60,49 @@
 
     .btn-red {
         @apply bg-[#A52921] text-white text-center w-[320px] h-[60px] font-lemon text-[16px] rounded-[5px]
+    }
+
+    .modal-screen {
+        display: none;
+    }
+}
+
+@media (max-width: 1028px) {
+    .modal-screen {
+        @apply w-[100vw] h-[100vh] flex items-center justify-center fixed z-[1] bg-[#0000002e];
+    }
+}
+
+@media (max-width: 768px) {
+    .btn-red-a {
+        @apply w-[300px] h-[55px] text-[14px]
+    }
+}
+
+@media (max-width: 525px) {
+    :root {
+        --size-main-line: 110px;
+    }
+}
+
+@media (max-width: 425px) {
+    .btn-red-a {
+        @apply w-[280px]
+    }
+}
+
+@media (max-width: 325px) {
+    .btn-red-a {
+        @apply w-[260px]
+    }
+}
+
+@media (max-width: 324px) {
+    .main-center {
+        display: none;
+    }
+
+    html, body {
+        overflow: hidden;
     }
 }
