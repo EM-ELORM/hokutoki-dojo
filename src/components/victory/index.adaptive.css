@@ -1,0 +1,5 @@
+@media (max-width: 425px) {
+    .img-victory {
+        @apply w-[265px] h-[445px]
+    }
+}

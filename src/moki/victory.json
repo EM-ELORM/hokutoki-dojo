@@ -1,0 +1,20 @@
+[
+  {
+    "img": "image1.png",
+    "place": "1",
+    "name": "Фамилия Имя",
+    "year": "2025"
+  },
+  {
+    "img": "image2.png",
+    "place": "1",
+    "name": "Фамилия Имя",
+    "year": "2025"
+  },
+  {
+    "img": "image3.png",
+    "place": "1",
+    "name": "Фамилия Имя",
+    "year": "2025"
+  }
+]

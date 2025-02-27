@@ -1,0 +1,19 @@
+@tailwind components;
+
+@layer components {
+    .pos-win {
+        @apply w-full flex justify-between items-center mt-14
+    }
+
+    .img-victory {
+        @apply w-[330px] h-[460px] rounded-[15px] flex justify-start bg-cover flex-shrink-0;
+    }
+
+    .desc-center-win {
+        @apply flex justify-center flex-col items-center mt-8
+    }
+
+    .text-desc-win {
+        @apply text-[24px]
+    }
+}

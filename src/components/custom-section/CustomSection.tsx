@@ -15,7 +15,7 @@ export const CustomSection: FC<CustomSectionProps> = (
     }
 ) => {
     return (
-        <div className={`main-center mt-28`}>
+        <section className={`main-center mt-28`}>
             <div className={`main-container`}>
                 <div className={`center-custom-section`}>
                     {header && (
@@ -30,6 +30,6 @@ export const CustomSection: FC<CustomSectionProps> = (
                     {children}
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

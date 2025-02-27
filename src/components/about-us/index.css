@@ -20,4 +20,8 @@
     .last-item {
         @apply w-[45%] flex justify-center;
     }
+
+    .desc-about-us {
+        @apply text-[20px] text-black
+    }
 }
