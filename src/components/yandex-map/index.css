@@ -1,0 +1,12 @@
+@tailwind components;
+
+
+@layer components {
+    .map {
+        @apply mt-14 w-full h-[574px] rounded-[25px] overflow-hidden
+    }
+
+    .pos-btn-map {
+        @apply flex flex-wrap justify-center w-full gap-x-10 gap-y-10 mt-14
+    }
+}
