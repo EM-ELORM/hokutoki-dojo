@@ -12,7 +12,7 @@
 
 @media (max-width: 525px) {
     .map {
-        @apply w-[425px]
+        @apply w-[400px]
     }
 }
 

@@ -15,7 +15,7 @@ export const AboutUs: FC = () => {
         <div className={`pos-about-us`}>
             <div className={`content-about-us`}>
                 {sortedItems.map((item, index) => (
-                    <div key={index} className={`block-content ${index === sortedItems.length - 1 ? "last-item" : ""}`}>
+                    <div key={index} className={`block-content`}>
                         <div
                             className={`icon`}
                             style={{backgroundImage: `url(${getImageUrl(globalImg, "svg")})`}}

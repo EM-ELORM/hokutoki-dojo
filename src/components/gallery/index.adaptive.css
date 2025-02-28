@@ -1,0 +1,39 @@
+@media (max-width: 1028px) {
+    .scale-gallery-two {
+        @apply w-[495px]
+    }
+
+    .scale-gallery-one {
+        @apply w-[495px]
+    }
+}
+
+@media (max-width: 525px) {
+    .scale-gallery-two {
+        @apply w-[400px]
+    }
+
+    .scale-gallery-one {
+        @apply w-[400px]
+    }
+}
+
+@media (max-width: 425px) {
+    .scale-gallery-two {
+        @apply w-[300px]
+    }
+
+    .scale-gallery-one {
+        @apply w-[300px]
+    }
+}
+
+@media (max-width: 325px) {
+    .scale-gallery-two {
+        @apply w-[280px]
+    }
+
+    .scale-gallery-one {
+        @apply w-[280px]
+    }
+}
