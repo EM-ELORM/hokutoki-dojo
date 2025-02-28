@@ -1,0 +1,23 @@
+@tailwind components;
+
+@layer components {
+    .pos-gallery {
+        @apply flex flex-col items-center mt-[3.5rem]
+    }
+
+    .content-gallery {
+        @apply flex flex-wrap justify-center gap-x-10 gap-y-10
+    }
+
+    .img-gallery {
+        @apply rounded-[25px] bg-center bg-cover
+    }
+
+    .scale-gallery-one {
+        @apply w-[1028px] h-[320px]
+    }
+
+    .scale-gallery-two {
+        @apply w-[494px] h-[300px]
+    }
+}

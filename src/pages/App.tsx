@@ -5,6 +5,7 @@ import {CustomSection} from "../components/custom-section/CustomSection.tsx";
 import {AboutUs} from "../components/about-us/AboutUs.tsx";
 import {Victory} from "../components/victory/Victory.tsx";
 import {YandexMap} from "../components/yandex-map/YandexMap.tsx";
+import {Gallery} from "../components/gallery/Gallery.tsx";
 
 export const App: FC = () => {
     return (
@@ -28,6 +29,7 @@ export const App: FC = () => {
                 </div>
                 <div className={`section-top-28`}>
                     <CustomSection header={`Галерея`} descSection={`Наши Моменты`}>
+                        <Gallery/>
                     </CustomSection>
                 </div>
             </LayoutProvider>
