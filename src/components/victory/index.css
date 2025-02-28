@@ -2,7 +2,11 @@
 
 @layer components {
     .pos-win {
-        @apply w-full flex justify-between items-center mt-14
+        @apply flex flex-col items-center mt-[3.5rem]
+    }
+
+    .content-win {
+        @apply flex flex-wrap justify-center gap-x-2 gap-y-10
     }
 
     .img-victory {

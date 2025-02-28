@@ -7,8 +7,8 @@ export const Victory = () => {
     const data = victory;
 
     return (
-        <div className={`flex flex-col items-center mt-[3.5rem]`}>
-            <div className={`flex flex-wrap justify-center gap-x-2 gap-y-10`}>
+        <div className={`pos-win`}>
+            <div className={`content-win`}>
                 {data.map((item, index) => (
                     <div key={index}>
                         <div

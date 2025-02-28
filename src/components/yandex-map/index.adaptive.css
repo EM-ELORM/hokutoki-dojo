@@ -1,0 +1,29 @@
+@media (max-width: 1028px) {
+    .map {
+        @apply w-[768px]
+    }
+}
+
+@media (max-width: 768px) {
+    .map {
+        @apply w-[525px]
+    }
+}
+
+@media (max-width: 525px) {
+    .map {
+        @apply w-[425px]
+    }
+}
+
+@media (max-width: 425px) {
+    .map {
+        @apply w-[325px]
+    }
+}
+
+@media (max-width: 325px) {
+    .map {
+        @apply w-[280px]
+    }
+}

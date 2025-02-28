@@ -78,6 +78,10 @@ input[type="password"]::-ms-clear {
         border-bottom: 4px solid #A52921;
         @apply w-[120px]
     }
+
+    .section-top-28 {
+        @apply mt-28
+    }
 }
 
 @media (max-width: 1028px) {
@@ -101,6 +105,10 @@ input[type="password"]::-ms-clear {
 @media (max-width: 425px) {
     .btn-red-a {
         @apply w-[280px]
+    }
+
+    .btn-red {
+        @apply w-[280px] text-[13px]
     }
 }
 
