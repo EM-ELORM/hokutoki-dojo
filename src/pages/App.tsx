@@ -1,36 +1,47 @@
 import {FC} from "react";
 import {Main} from "../components/main/Main.tsx";
 import {LayoutProvider} from "../context/LayoutProvider.tsx";
-import {CustomSection} from "../components/custom-section/CustomSection.tsx";
 import {AboutUs} from "../components/about-us/AboutUs.tsx";
 import {Victory} from "../components/victory/Victory.tsx";
 import {YandexMap} from "../components/yandex-map/YandexMap.tsx";
 import {Gallery} from "../components/gallery/Gallery.tsx";
+import {CustomSectionOne} from "../components/custom-section-one/CustomSectionOne.tsx";
+import {CustomSectionTwo} from "../components/custom-section-two/CustomSectionTwo.tsx";
+import {Price} from "@components/price/Price.tsx";
 
 export const App: FC = () => {
     return (
         <>
             <LayoutProvider>
                 <Main/>
-                <div className={`section-top-28`}>
-                    <CustomSection header={`О нас`} descSection={`Традиции и опыт`}>
+                <div className={`section-m-top-28`}>
+                    <CustomSectionOne header={`О нас`} descSection={`Традиции и опыт`}>
                         <AboutUs/>
-                    </CustomSection>
+                    </CustomSectionOne>
                 </div>
-                <div className={`section-top-28`}>
-                    <CustomSection descSection={`Победы`}>
+                <div className={`section-m-top-28`}>
+                    <CustomSectionOne descSection={`Победы`}>
                         <Victory/>
-                    </CustomSection>
+                    </CustomSectionOne>
                 </div>
-                <div className={`section-top-28`}>
-                    <CustomSection descSection={`Местоположение`}>
+                <div className={`section-m-top-28`}>
+                    <CustomSectionOne descSection={`Местоположение`}>
                         <YandexMap/>
-                    </CustomSection>
+                    </CustomSectionOne>
                 </div>
-                <div className={`section-top-28`}>
-                    <CustomSection header={`Галерея`} descSection={`Наши Моменты`}>
+                <div className={`section-m-top-28`}>
+                    <CustomSectionOne header={`Галерея`} descSection={`Наши Моменты`}>
                         <Gallery/>
-                    </CustomSection>
+                    </CustomSectionOne>
+                </div>
+                <div className={`section-m-top-28`}>
+                    <div className={`bg-section-two`}>
+                        <div className={`section-p-top-28`}>
+                            <CustomSectionTwo header={`Расписание и стоимость`} descSection={`Стоимость`}>
+                                <Price/>
+                            </CustomSectionTwo>
+                        </div>
+                    </div>
                 </div>
             </LayoutProvider>
         </>
