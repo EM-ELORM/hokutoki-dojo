@@ -1,0 +1,96 @@
+[
+  {
+    "id": 100,
+    "color": "--color-trainer-100",
+    "trainer": {
+      "name": "Хасанов Руслан Альбертович",
+      "phone": "8 (922) 255-66-98"
+    },
+    "price_list": {
+      "group_training": [
+        {
+          "price": 4000,
+          "months": 1
+        }
+      ],
+      "individual_training": [
+        {
+          "price": 2000,
+          "count": 1
+        },
+        {
+          "price": 14000,
+          "count": 8
+        },
+        {
+          "price": 20000,
+          "count": 12
+        }
+      ]
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cupiditate illum perferendis sunt tempora? Adipisci animi aperiam at blanditiis consectetur consequatur..."
+  },
+  {
+    "id": 101,
+    "color": "--color-trainer-101",
+    "trainer": {
+      "name": "Аксенюк Павел Евгеньевич",
+      "phone": "8 (922) 255-66-98"
+    },
+    "price_list": {
+      "group_training": [
+        {
+          "price": 3500,
+          "months": 1
+        }
+      ],
+      "individual_training": [
+        {
+          "price": 1500,
+          "count": 1
+        },
+        {
+          "price": 10000,
+          "count": 8
+        },
+        {
+          "price": 14000,
+          "count": 12
+        }
+      ]
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cupiditate illum perferendis sunt tempora? Adipisci animi aperiam at blanditiis consectetur consequatur..."
+  },
+  {
+    "id": 102,
+    "color": "--color-trainer-102",
+    "trainer": {
+      "name": "Михтахов Камиль Рамильевич",
+      "phone": "8 (922) 255-66-98"
+    },
+    "price_list": {
+      "group_training": [
+        {
+          "price": 3500,
+          "months": 1
+        }
+      ],
+      "individual_training": [
+        {
+          "price": 1500,
+          "count": 1
+        },
+        {
+          "price": 10000,
+          "count": 8
+        },
+        {
+          "price": 14000,
+          "count": 12
+        }
+      ]
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cupiditate illum perferendis sunt tempora? Adipisci animi aperiam at blanditiis consectetur consequatur..."
+  }
+]
+

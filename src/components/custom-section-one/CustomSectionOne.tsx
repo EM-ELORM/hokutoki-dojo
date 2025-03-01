@@ -7,7 +7,7 @@ interface CustomSectionProps {
     children?: React.ReactNode
 }
 
-export const CustomSection: FC<CustomSectionProps> = (
+export const CustomSectionOne: FC<CustomSectionProps> = (
     {
         header,
         descSection,
@@ -19,12 +19,12 @@ export const CustomSection: FC<CustomSectionProps> = (
             <div className={`main-container`}>
                 <div className={`center-custom-section`}>
                     {header && (
-                        <div className={`header-section`}>{header}</div>
+                        <div className={`header-section-one`}>{header}</div>
                     )}
                     {descSection && (
                         <>
-                            <div className={`desc-section mt-8`}>{descSection}</div>
-                            <div className={`line-desc-section`}></div>
+                            <div className={`desc-section-one mt-8`}>{descSection}</div>
+                            <div className={`line-desc-section-one`}></div>
                         </>
                     )}
                     {children}
