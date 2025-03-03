@@ -1,0 +1,31 @@
+@media (max-width: 1028px) {
+    .line-reviews {
+        display: none;
+    }
+
+    .pos-reviews {
+        @apply items-center justify-center
+    }
+
+    .distance-reviews {
+        @apply items-center
+    }
+
+    .square-scroll {
+        @apply w-[425px] h-[77rem]
+    }
+
+    .content-reviews {
+        @apply flex-col h-[50%]
+    }
+
+    .pos-content-reviews {
+        @apply w-full items-center
+    }
+}
+
+@media (max-width: 425px) {
+    .square-scroll {
+        @apply w-[280px] h-[67rem]
+    }
+}

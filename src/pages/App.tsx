@@ -9,6 +9,7 @@ import {CustomSectionOne} from "../components/custom-section-one/CustomSectionOn
 import {CustomSectionTwo} from "../components/custom-section-two/CustomSectionTwo.tsx";
 import {Price} from "../components/price/Price.tsx";
 import {Schedule} from "../components/schedule/Schedule.tsx";
+import {Reviews} from "../components/reviews/Reviews.tsx";
 
 export const App: FC = () => {
     return (
@@ -45,6 +46,15 @@ export const App: FC = () => {
                         <div className={`section-m-top-28`}>
                             <CustomSectionTwo descSection={`Время проведения тренировок`}>
                                 <Schedule/>
+                            </CustomSectionTwo>
+                        </div>
+                        <div className={`section-m-top-28`}>
+                            <CustomSectionTwo header={`Отзывы`} descSection={`Наши оценки`}>
+                                <Reviews/>
+                            </CustomSectionTwo>
+                        </div>
+                        <div className={`section-m-top-28`}>
+                            <CustomSectionTwo header={`Контакты`} descSection={`Свзязаться с нами`}>
                             </CustomSectionTwo>
                         </div>
                     </div>

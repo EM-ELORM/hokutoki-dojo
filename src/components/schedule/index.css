@@ -10,7 +10,7 @@
     }
 
     .border-column {
-        border-top: 3px solid var(--color-line);
+        border-top: 3px solid var(--color-line-schedule);
         @apply w-[90%] mt-10 pb-10
     }
 

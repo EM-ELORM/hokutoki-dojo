@@ -14,7 +14,8 @@
     --color-trainer-100: #2E57B0;
     --color-trainer-101: #BE8433;
     --color-trainer-102: #40923B;
-    --color-line: #A52921
+    --color-line-schedule: #A52921;
+    --color-line-reviews: #000000
 }
 
 html, body {
@@ -36,6 +37,15 @@ input[type="password"]::-ms-clear {
     display: none;
 }
 
+.scroll-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scroll-hide::-webkit-scrollbar {
+    display: none;
+}
+
 @font-face {
     font-family: 'Lemon';
     src: url('/fonts/lemonmilkrusbydaymarius.otf') format('opentype');
@@ -50,6 +60,10 @@ input[type="password"]::-ms-clear {
 }
 
 @layer components {
+    .scroll-y {
+        @apply overflow-y-auto
+    }
+
     .main-container {
         @apply w-[1028px]
     }
