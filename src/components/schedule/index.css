@@ -1,0 +1,56 @@
+@tailwind components;
+
+@layer components {
+    .pos-schedule {
+        @apply flex w-full flex-col items-center mt-[3.5rem]
+    }
+
+    .pos-btn-schedule {
+        @apply flex flex-wrap justify-center w-full gap-x-10 gap-y-10 mt-8
+    }
+
+    .border-column {
+        border-top: 3px solid var(--color-line);
+        @apply w-[90%] mt-10 pb-10
+    }
+
+    .pos-schedule-elements {
+        @apply flex flex-wrap items-center justify-center gap-y-4
+    }
+
+    .pos-column-schedule {
+        @apply flex flex-wrap gap-x-5
+    }
+
+    .header-schedule.index-one {
+        @apply w-[13em]
+    }
+
+    .header-schedule {
+        @apply bg-[#fff] rounded-[5px] font-lemon text-[14px] flex items-center justify-center h-[4.2em] w-[8em]
+    }
+
+    .time-schedule.index-one {
+        @apply w-[13em]
+    }
+
+    .time-schedule {
+        @apply rounded-[5px] font-lemon text-[14px] flex items-center justify-center h-[4.2em] w-[8em] text-white
+    }
+
+    .pos-column-schedule-adaptive {
+        @apply flex flex-col
+    }
+
+    .pos-column-schedule-adaptive {
+        @apply flex flex-col items-center justify-center mt-8
+    }
+
+    .pos-element-column-adaptive {
+        @apply flex items-center gap-x-4 mt-8
+    }
+
+    .dis-element-column-adaptive {
+        @apply flex flex-col gap-y-4
+    }
+}

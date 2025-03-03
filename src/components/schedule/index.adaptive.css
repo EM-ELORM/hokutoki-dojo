@@ -1,0 +1,42 @@
+@media (min-width: 1028px) {
+    .pos-column-schedule-adaptive {
+        display: none;
+    }
+}
+
+@media (max-width: 1028px) {
+    .pos-schedule-elements {
+        display: none;
+    }
+
+    .pos-column-schedule-adaptive {
+        display: flex !important;
+        @apply items-center
+    }
+
+    .header-schedule {
+        @apply w-[4em]
+    }
+
+    .time-schedule.index-one {
+        @apply w-[20em]
+    }
+
+    .time-schedule {
+        @apply w-[15em]
+    }
+}
+
+@media (max-width: 425px) {
+    .header-schedule {
+        @apply w-[3em]
+    }
+
+    .time-schedule.index-one {
+        @apply w-[18em]
+    }
+
+    .time-schedule {
+        @apply w-[14em]
+    }
+}

@@ -1,8 +1,9 @@
 import './index.css'
 import './index.adaptive.css'
 import trainers from '../../moki/trainers.json'
+import {FC} from "react";
 
-export const Price = () => {
+export const Price: FC = () => {
     const data = trainers
 
     return (

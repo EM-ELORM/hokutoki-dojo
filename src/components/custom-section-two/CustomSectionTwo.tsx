@@ -22,7 +22,7 @@ export const CustomSectionTwo: FC<CustomSectionProps> = (
                     )}
                     {descSection && (
                         <>
-                            <div className={`desc-section-two mt-8`}>{descSection}</div>
+                            <div className={`desc-section-two`}>{descSection}</div>
                             <div className={`line-desc-section-two`}></div>
                         </>
                     )}

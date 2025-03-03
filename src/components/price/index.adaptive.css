@@ -17,7 +17,7 @@
     .pos-type-training.adaptive {
         display: flex;
         border-bottom: 0 !important;
-        @apply flex-col items-center
+        @apply flex-col items-center text-center
     }
 
     .border-column-price {
