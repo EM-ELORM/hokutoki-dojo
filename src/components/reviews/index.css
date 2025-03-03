@@ -1,0 +1,31 @@
+@tailwind components;
+
+@layer components {
+    .pos-reviews {
+        @apply w-full flex justify-between mt-10
+    }
+
+    .square-scroll {
+        @apply w-[95%] h-[45rem] relative
+    }
+
+    .distance-reviews {
+        @apply flex flex-col gap-y-10 h-full overflow-y-scroll
+    }
+
+    .content-reviews {
+        @apply w-full h-[22%] flex justify-between items-center bg-white rounded-[40px] p-5
+    }
+
+    .img-reviews-content {
+        @apply h-[100px] w-[100px] rounded-[25px] bg-center bg-cover
+    }
+
+    .pos-content-reviews {
+        @apply w-[820px] flex flex-col gap-y-4
+    }
+
+    .line-reviews {
+        @apply w-[3px] h-[45rem] bg-white rounded-[40px]
+    }
+}
