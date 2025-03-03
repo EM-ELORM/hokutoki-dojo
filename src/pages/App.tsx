@@ -7,7 +7,8 @@ import {YandexMap} from "../components/yandex-map/YandexMap.tsx";
 import {Gallery} from "../components/gallery/Gallery.tsx";
 import {CustomSectionOne} from "../components/custom-section-one/CustomSectionOne.tsx";
 import {CustomSectionTwo} from "../components/custom-section-two/CustomSectionTwo.tsx";
-import {Price} from "@components/price/Price.tsx";
+import {Price} from "../components/price/Price.tsx";
+import {Schedule} from "../components/schedule/Schedule.tsx";
 
 export const App: FC = () => {
     return (
@@ -39,6 +40,11 @@ export const App: FC = () => {
                         <div className={`section-p-top-28`}>
                             <CustomSectionTwo header={`Расписание и стоимость`} descSection={`Стоимость`}>
                                 <Price/>
+                            </CustomSectionTwo>
+                        </div>
+                        <div className={`section-m-top-28`}>
+                            <CustomSectionTwo descSection={`Время проведения тренировок`}>
+                                <Schedule/>
                             </CustomSectionTwo>
                         </div>
                     </div>

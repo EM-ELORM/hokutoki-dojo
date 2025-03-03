@@ -14,6 +14,7 @@
     --color-trainer-100: #2E57B0;
     --color-trainer-101: #BE8433;
     --color-trainer-102: #40923B;
+    --color-line: #A52921
 }
 
 html, body {
@@ -87,7 +88,7 @@ input[type="password"]::-ms-clear {
     }
 
     .desc-section-two {
-        @apply font-lemon text-center h-[4rem] text-[28px] text-[#FFF];
+        @apply font-lemon text-center text-[28px] text-[#FFF] mt-8 mb-8;
     }
 
     .line-desc-section-two {
