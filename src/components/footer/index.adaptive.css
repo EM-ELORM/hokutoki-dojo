@@ -1,0 +1,25 @@
+@media (max-width: 1028px) {
+    .pos-footer {
+        @apply flex flex-col items-center justify-center gap-y-8 pb-20
+    }
+
+    .block {
+        @apply items-center text-center
+    }
+}
+
+@media (max-width: 525px) {
+    .block-img {
+        @apply w-[65%]
+    }
+
+    .img-social-link {
+        @apply w-[60px] h-[60px]
+    }
+}
+
+@media (max-width: 325px) {
+    .block-img {
+        @apply w-[75%]
+    }
+}
