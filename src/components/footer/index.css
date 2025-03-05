@@ -1,0 +1,27 @@
+@tailwind components;
+
+@layer components {
+    .pos-footer {
+        @apply flex w-full justify-evenly items-center h-[311px]
+    }
+
+    .block {
+        @apply flex flex-col text-[#fff]
+    }
+
+    .block-img {
+        @apply w-[20%] flex justify-between items-center
+    }
+
+    .img-social-link {
+        @apply w-[70px] h-[70px] bg-cover flex-shrink-0 cursor-pointer
+    }
+
+    .header-footer {
+        @apply font-lemon text-[20px]
+    }
+
+    .span-footer {
+        @apply text-[22px]
+    }
+}

@@ -11,8 +11,8 @@ export const Reviews: FC = () => {
         <div className={`pos-reviews`}>
             <div className={`square-scroll`}>
                 <div className={`distance-reviews scroll-hide`}>
-                    {data.map((item) => (
-                        <div className={`content-reviews`}>
+                    {data.map((item, idx) => (
+                        <div className={`content-reviews`} key={idx}>
                             <div className={`img-reviews-content`}
                                  style={{backgroundImage: `url(${getImageUrl("user.png", `png`)})`}}></div>
                             <div className={`pos-content-reviews`}>

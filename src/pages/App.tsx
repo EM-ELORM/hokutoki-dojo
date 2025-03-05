@@ -11,6 +11,7 @@ import {Price} from "@components/price/Price.tsx";
 import {Schedule} from "@components/schedule/Schedule.tsx";
 import {Reviews} from "@components/reviews/Reviews.tsx";
 import {ContactUs} from "@components/contact-us/ContactUs.tsx";
+import {Footer} from "@components/footer/Footer.tsx";
 
 export const App: FC = () => {
     return (
@@ -60,6 +61,11 @@ export const App: FC = () => {
                             <CustomSectionTwo header={`Контакты`} descSection={`Связаться с нами`} width={`1275px`}>
                                 <ContactUs/>
                             </CustomSectionTwo>
+                        </div>
+                    </div>
+                    <div className={`bg-footer`}>
+                        <div className={`section-p-top-28`}>
+                            <Footer/>
                         </div>
                     </div>
                 </div>
