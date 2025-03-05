@@ -1,7 +1,7 @@
 import './index.css'
 import './index.adaptive.css'
 import {FC, useState} from "react";
-import schedules from '../../moki/shedule.json'
+import schedules from '@moki/shedule.json'
 import {ScheduleAdaptive} from "./ScheduleAdaptive.tsx";
 
 export const Schedule: FC = () => {

@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .pos-form {
+        @apply flex flex-col items-center
+    }
+
+    .input-contact {
+        @apply
+        bg-transparent
+        w-[350px]
+        rounded-[25px]
+        h-[60px]
+        border-[2px]
+        border-[#fff]
+        mb-4
+        focus:ring-white
+        focus:border-white
+        placeholder-white
+        text-white
+        py-2
+        px-4
+    }
+
+    .modal {
+        @apply fixed top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50 flex justify-center items-center text-center;
+    }
+
+    .list-modal {
+        @apply bg-white p-8 rounded-md list-none relative;
+    }
+
+    .element-list {
+        @apply p-2 cursor-pointer m-2 text-[18px];
+    }
+
+    .element-list:hover {
+        @apply bg-black bg-opacity-30 text-white rounded-md;
+    }
+
+    .close {
+        @apply w-[30px] h-[30px] absolute top-[5px] right-[5px] bg-center bg-cover;
+    }
+
+    .btn-red-contact {
+        @apply
+        bg-[#842922]
+        text-white
+        text-center
+        border-[2px]
+        border-[#fff]
+        w-[350px]
+        h-[60px]
+        font-lemon
+        text-[16px]
+        rounded-[25px]
+    }
+}

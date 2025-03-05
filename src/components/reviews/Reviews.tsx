@@ -1,8 +1,8 @@
 import './index.css'
 import './index.adaptive.css'
 import {FC} from "react";
-import reviews from "../../moki/reviews.json"
-import {getImageUrl} from "../../libs/utils.ts";
+import reviews from "@moki/reviews.json"
+import {getImageUrl} from "@/libs/utils.ts";
 
 export const Reviews: FC = () => {
     const data = reviews

@@ -4,18 +4,20 @@ interface CustomSectionProps {
     header?: string
     descSection?: string
     children?: React.ReactNode
+    width?: string
 }
 
 export const CustomSectionTwo: FC<CustomSectionProps> = (
     {
         header,
         descSection,
-        children
+        children,
+        width
     }
 ) => {
     return (
         <section className={`main-center`}>
-            <div className={`main-container`}>
+            <div className={`main-container`} style={width ? {width} : undefined}>
                 <div className={`center-custom-section`}>
                     {header && (
                         <div className={`header-section-two`}>{header}</div>

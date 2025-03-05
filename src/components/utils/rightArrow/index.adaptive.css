@@ -1,0 +1,16 @@
+@media (max-width: 1275px) {
+    .right-arrow {
+        width: 3px !important;
+        height: 130px !important;
+        @apply
+        bg-[#FFF]
+        mx-auto relative after:content-['']
+        after:absolute after:bottom-[-1px]
+        after:left-1/2 after:w-[1rem]
+        after:h-[1rem] after:border-b-[3px]
+        after:border-r-[3px]
+        after:border-[#FFF]
+        after:rotate-45
+        after:-translate-x-[8.5px]
+    }
+}

@@ -1,7 +1,7 @@
 import './index.css'
 import './index.adaptive.css'
-import gallery from "../../moki/gallery.json";
-import {getImageUrl} from "../../libs/utils.ts";
+import gallery from "@moki/gallery.json";
+import {getImageUrl} from "@/libs/utils.ts";
 
 export const Gallery = () => {
     const data = gallery;

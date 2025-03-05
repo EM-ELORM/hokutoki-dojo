@@ -1,0 +1,39 @@
+@media (max-width: 1275px) {
+    .pos-contact-us {
+        @apply flex-col items-center
+    }
+
+    .pos-block-one {
+        @apply items-center w-full
+    }
+
+    .desc-block-one {
+        @apply text-center w-[35%]
+    }
+}
+
+@media (max-width: 768px) {
+    .desc-block-one {
+        @apply w-[55%]
+    }
+}
+
+@media (max-width: 525px) {
+    .header-block-one {
+        @apply text-[35px]
+    }
+
+    .desc-block-one {
+        @apply text-[25px] w-[75%]
+    }
+}
+
+@media (max-width: 425px) {
+    .header-block-one {
+        @apply text-[30px] text-center
+    }
+
+    .desc-block-one {
+        @apply text-[20px] w-[65%]
+    }
+}
