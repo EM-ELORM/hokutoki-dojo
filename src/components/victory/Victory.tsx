@@ -1,7 +1,7 @@
 import './index.css'
 import './index.adaptive.css'
-import victory from "../../moki/victory.json";
-import {getImageUrl} from "../../libs/utils.ts";
+import victory from "@moki/victory.json";
+import {getImageUrl} from "@/libs/utils.ts";
 
 export const Victory = () => {
     const data = victory;

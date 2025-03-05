@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .pos-contact-us {
+        @apply flex w-full justify-between mt-14
+    }
+
+    .pos-block-one {
+        @apply flex w-[45%] flex-col items-start
+    }
+
+    .header-block-one {
+        @apply text-[45px] text-[#fff] font-lemon
+    }
+
+    .desc-block-one {
+        @apply flex w-[65%] text-[30px] text-[#fff] font-lemon
+    }
+}

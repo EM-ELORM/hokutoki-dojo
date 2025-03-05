@@ -1,0 +1,10 @@
+@tailwind components;
+
+@layer components {
+    .right-arrow {
+        @apply h-[3px] bg-[#FFF] mt-10 relative
+        after:content-[''] after:absolute after:bottom-[-6px]
+        after:left-1/2 after:w-[1rem] after:h-[1rem] after:border-b-[3px]
+        after:border-r-[3px] after:border-[#FFF] after:rotate-[-45deg] after:-translate-x-[-208.5px]
+    }
+}

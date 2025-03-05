@@ -1,8 +1,8 @@
 import './index.css';
 import './index.adaptive.css'
-import { FC } from 'react';
-import traditionsAndExp from '../../moki/traditionsAndExperience.json';
-import {getImageUrl} from "../../libs/utils.ts";
+import {FC} from 'react';
+import traditionsAndExp from '@moki/traditionsAndExperience.json';
+import {getImageUrl} from "@/libs/utils.ts";
 
 export const AboutUs: FC = () => {
     const { globalImg, items } = traditionsAndExp;

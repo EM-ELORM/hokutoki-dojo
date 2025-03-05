@@ -11,6 +11,7 @@
 
 :root {
     --size-main-line: 130px;
+    --size-contact-line: 450px;
     --color-trainer-100: #2E57B0;
     --color-trainer-101: #BE8433;
     --color-trainer-102: #40923B;
@@ -122,6 +123,10 @@ input[type="password"]::-ms-clear {
         @apply w-full bg-[#2B2A28]
     }
 
+    .bg-gradient {
+        @apply w-full bg-gradient-to-b from-[#2B2A28] via-[#2B2A28] via-30% to-[#A52921]
+    }
+
     .btn-price {
         @apply w-[460px] h-[60px] rounded-[5px] text-[20px] text-white font-lemon
     }
@@ -174,11 +179,8 @@ input[type="password"]::-ms-clear {
 }
 
 @media (max-width: 324px) {
-    .main-center {
-        display: none;
-    }
-
     html, body {
+        display: none;
         overflow: hidden;
     }
 }

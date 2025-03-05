@@ -1,0 +1,37 @@
+@media (max-width: 1275px) {
+    .pos-form {
+        @apply mt-10
+    }
+}
+
+@media (max-width: 425px) {
+    .input-contact {
+        @apply w-[300px]
+    }
+
+    .btn-red-contact {
+        @apply w-[300px]
+    }
+
+    .list-modal {
+        @apply px-5 py-10
+    }
+
+    .close {
+        @apply w-[30px] h-[30px]
+    }
+}
+
+@media (max-width: 325px) {
+    .input-contact {
+        @apply w-[280px]
+    }
+
+    .list-modal {
+        @apply px-0 py-8
+    }
+
+    .btn-red-contact {
+        @apply w-[280px]
+    }
+}

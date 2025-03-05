@@ -1,15 +1,16 @@
 import {FC} from "react";
-import {Main} from "../components/main/Main.tsx";
-import {LayoutProvider} from "../context/LayoutProvider.tsx";
-import {AboutUs} from "../components/about-us/AboutUs.tsx";
-import {Victory} from "../components/victory/Victory.tsx";
-import {YandexMap} from "../components/yandex-map/YandexMap.tsx";
-import {Gallery} from "../components/gallery/Gallery.tsx";
-import {CustomSectionOne} from "../components/custom-section-one/CustomSectionOne.tsx";
-import {CustomSectionTwo} from "../components/custom-section-two/CustomSectionTwo.tsx";
-import {Price} from "../components/price/Price.tsx";
-import {Schedule} from "../components/schedule/Schedule.tsx";
-import {Reviews} from "../components/reviews/Reviews.tsx";
+import {LayoutProvider} from "@/context/LayoutProvider.tsx";
+import {Main} from "@components/main/Main.tsx";
+import {CustomSectionOne} from "@components/custom-section-one/CustomSectionOne.tsx";
+import {AboutUs} from "@components/about-us/AboutUs.tsx";
+import {Victory} from "@components/victory/Victory.tsx";
+import {YandexMap} from "@components/yandex-map/YandexMap.tsx";
+import {Gallery} from "@components/gallery/Gallery.tsx";
+import {CustomSectionTwo} from "@components/custom-section-two/CustomSectionTwo.tsx";
+import {Price} from "@components/price/Price.tsx";
+import {Schedule} from "@components/schedule/Schedule.tsx";
+import {Reviews} from "@components/reviews/Reviews.tsx";
+import {ContactUs} from "@components/contact-us/ContactUs.tsx";
 
 export const App: FC = () => {
     return (
@@ -53,8 +54,11 @@ export const App: FC = () => {
                                 <Reviews/>
                             </CustomSectionTwo>
                         </div>
-                        <div className={`section-m-top-28`}>
-                            <CustomSectionTwo header={`Контакты`} descSection={`Свзязаться с нами`}>
+                    </div>
+                    <div className={`bg-gradient`}>
+                        <div className={`section-p-top-28`}>
+                            <CustomSectionTwo header={`Контакты`} descSection={`Связаться с нами`} width={`1275px`}>
+                                <ContactUs/>
                             </CustomSectionTwo>
                         </div>
                     </div>
