@@ -134,6 +134,10 @@ input[type="password"]::-ms-clear {
     .btn-price {
         @apply w-[460px] h-[60px] rounded-[5px] text-[20px] text-white font-lemon
     }
+
+    .close {
+        @apply w-[30px] h-[30px] absolute top-[5px] right-[5px] bg-[url('/img/svg/close.svg')] bg-center bg-cover;
+    }
 }
 
 @media (max-width: 1028px) {

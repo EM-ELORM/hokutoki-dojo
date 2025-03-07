@@ -2,10 +2,6 @@
     .pos-type-training.adaptive {
         display: none !important;
     }
-
-    .border-column-price {
-        border-top: none !important;
-    }
 }
 
 @media (max-width: 1028px) {
@@ -32,6 +28,12 @@
 
     .content-column {
         @apply flex-col items-center
+    }
+}
+
+@media (max-width: 525px) {
+    .pos-column {
+        @apply w-[345px]
     }
 }
 

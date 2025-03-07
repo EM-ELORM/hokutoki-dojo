@@ -35,7 +35,7 @@
     }
 
     .time-schedule {
-        @apply rounded-[5px] font-lemon text-[14px] flex items-center justify-center h-[4.2em] w-[8em] text-white
+        @apply rounded-[5px] font-lemon text-[14px] flex items-center justify-center h-[4.2em] w-[8em] text-white cursor-pointer
     }
 
     .pos-column-schedule-adaptive {
@@ -52,5 +52,9 @@
 
     .dis-element-column-adaptive {
         @apply flex flex-col gap-y-4
+    }
+
+    .tooltip {
+        @apply fixed bg-black bg-opacity-75 text-white px-2 py-1 rounded-md pointer-events-none z-[1];
     }
 }

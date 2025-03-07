@@ -1,24 +1,19 @@
 import './index.css'
 import './index.adaptive.css'
-import '../utils/navModal/index.css'
 import {FC} from "react";
-import {Header} from "../header/Header.tsx";
-import {DownArrow} from "../utils/downArrow/DownArrow.tsx";
-import {NavModal} from "../utils/navModal/NavModal.tsx";
-import {useLayout} from "../../context/UseLayout.tsx";
+import {useLayout} from "@/context/UseLayout.tsx";
+import {Header} from "@components/header/Header.tsx";
+import {NavModal} from "@components/utils/nav-modal/NavModal.tsx";
+import {TrainerModal} from "@components/utils/trainer-modal/TrainerModal.tsx";
+import {DownArrow} from "@components/utils/down-arrow/DownArrow.tsx";
 
 export const Main: FC = () => {
-    const {isOpenNavModal} = useLayout()
+    const {isOpenNavModal, isOpenTrainerModal} = useLayout()
 
     return (
         <>
-            {isOpenNavModal && (
-                <>
-                    <div className={`modal-screen`}>
-                        <NavModal/>
-                    </div>
-                </>
-            )}
+            {isOpenNavModal && (<NavModal/>)}
+            {isOpenTrainerModal && (<TrainerModal/>)}
             <section className={`bg-main`}>
                 <div className={`main-center`}>
                     <div className={`main-container`}>

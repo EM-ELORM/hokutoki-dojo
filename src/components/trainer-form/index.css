@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .pos-trainer-form {
+        @apply flex flex-col items-center mb-6
+    }
+
+    .input-trainer {
+        @apply
+        bg-transparent
+        w-[650px]
+        h-[60px]
+        rounded-[25px]
+        border-[2px]
+        border-[#000]
+        mb-4
+        focus:ring-black
+        focus:border-black
+        placeholder-black
+        text-black
+        text-[18px]
+        py-2
+        px-4
+    }
+
+    .modal-trainer {
+        @apply fixed top-0 left-0 right-0 bottom-0 bg-[#0000002e] flex justify-center items-center text-center;
+    }
+
+    .list-modal-trainer {
+        @apply bg-white p-8 rounded-md list-none relative;
+    }
+
+    .element-list-trainer {
+        @apply p-2 cursor-pointer m-2 text-[18px];
+    }
+
+    .element-list-trainer:hover {
+        @apply bg-black bg-opacity-30 text-white rounded-md;
+    }
+
+    .btn-trainer {
+        @apply
+        text-white
+        text-center
+        w-[650px]
+        h-[60px]
+        font-lemon
+        text-[20px]
+        rounded-[25px]
+        focus:ring-[#2E57B0]
+        focus:border-[#2E57B0]
+    }
+}

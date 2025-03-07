@@ -13,10 +13,6 @@
         @apply flex justify-between w-[33%] mt-[2.5rem] text-[#2B2A28]
     }
 
-    .nav-hover {
-        @apply hover:text-[#C0241B] cursor-pointer
-    }
-
     .pos-burger {
         display: none;
     }

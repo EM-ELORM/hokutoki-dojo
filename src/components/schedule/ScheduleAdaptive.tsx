@@ -1,4 +1,5 @@
 import {FC, useState} from "react";
+import {useLayout} from "@context/UseLayout.tsx";
 
 interface ScheduleAdaptiveProps {
     headers: {
@@ -11,6 +12,7 @@ interface ScheduleAdaptiveProps {
             lessons: string;
             times: string[];
             color: string;
+            trainerId: number;
         }[];
     };
 }
@@ -19,9 +21,9 @@ export const ScheduleAdaptive: FC<ScheduleAdaptiveProps> = (
     {
         headers,
         selectedSchedule
-
     }
 ) => {
+    const {handleOpenTrainerModal} = useLayout();
     const [activeLesson, setActiveLesson] = useState<string | null>(null);
 
     const toggleLesson = (lesson: string) => {
@@ -62,6 +64,7 @@ export const ScheduleAdaptive: FC<ScheduleAdaptiveProps> = (
                                         className={`time-schedule`}
                                         style={{background: `var(${item.color})`}}
                                         key={index}
+                                        onClick={() => handleOpenTrainerModal({trainerId: item.trainerId})}
                                     >
                                         {time}
                                     </div>

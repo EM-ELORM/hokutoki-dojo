@@ -26,7 +26,8 @@
             "18:00 - 19:00",
             "18:00 - 19:00"
           ],
-          "color": "--color-trainer-100"
+          "color": "--color-trainer-100",
+          "trainerId": 100
         },
         {
           "lessons": "ОФП 4-5 лет",
@@ -38,7 +39,8 @@
             "18:00 - 19:00",
             "18:00 - 19:00"
           ],
-          "color": "--color-trainer-102"
+          "color": "--color-trainer-102",
+          "trainerId": 102
         },
         {
           "lessons": "6-9 лет",
@@ -50,7 +52,8 @@
             "18:00 - 19:00",
             "18:00 - 19:00"
           ],
-          "color": "--color-trainer-101"
+          "color": "--color-trainer-101",
+          "trainerId": 101
         },
         {
           "lessons": "6-7 лет",
@@ -62,7 +65,8 @@
             "18:00 - 19:00",
             "18:00 - 19:00"
           ],
-          "color": "--color-trainer-100"
+          "color": "--color-trainer-100",
+          "trainerId": 100
         },
         {
           "lessons": "8-10 лет",
@@ -74,7 +78,8 @@
             "18:00 - 19:00",
             "18:00 - 19:00"
           ],
-          "color": "--color-trainer-100"
+          "color": "--color-trainer-100",
+          "trainerId": 100
         },
         {
           "lessons": "13-21 лет",
@@ -86,7 +91,8 @@
             "18:00 - 19:00",
             "18:00 - 19:00"
           ],
-          "color": "--color-trainer-100"
+          "color": "--color-trainer-100",
+          "trainerId": 100
         }
       ]
     },
@@ -103,7 +109,8 @@
             "18:00 - 19:00",
             "18:00 - 19:00"
           ],
-          "color": "--color-trainer-100"
+          "color": "--color-trainer-100",
+          "trainerId": 100
         },
         {
           "lessons": "ОФП 4-5 лет",
@@ -115,7 +122,8 @@
             "18:00 - 19:00",
             "18:00 - 19:00"
           ],
-          "color": "--color-trainer-102"
+          "color": "--color-trainer-102",
+          "trainerId": 102
         },
         {
           "lessons": "6-9 лет",
@@ -127,7 +135,8 @@
             "18:00 - 19:00",
             "18:00 - 19:00"
           ],
-          "color": "--color-trainer-101"
+          "color": "--color-trainer-101",
+          "trainerId": 101
         },
         {
           "lessons": "6-7 лет",
@@ -139,7 +148,8 @@
             "18:00 - 19:00",
             "18:00 - 19:00"
           ],
-          "color": "--color-trainer-100"
+          "color": "--color-trainer-100",
+          "trainerId": 100
         },
         {
           "lessons": "8-10 лет",
@@ -151,7 +161,8 @@
             "18:00 - 19:00",
             "18:00 - 19:00"
           ],
-          "color": "--color-trainer-100"
+          "color": "--color-trainer-100",
+          "trainerId": 100
         },
         {
           "lessons": "13-21 лет",
@@ -163,7 +174,8 @@
             "18:00 - 19:00",
             "18:00 - 19:00"
           ],
-          "color": "--color-trainer-100"
+          "color": "--color-trainer-100",
+          "trainerId": 100
         }
       ]
     }

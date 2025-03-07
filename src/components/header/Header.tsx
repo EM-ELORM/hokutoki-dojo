@@ -1,8 +1,8 @@
 import {FC} from "react";
 import './index.css'
 import './index.adaptive.css'
-import {BurgerMenu} from "../utils/burgerMenu/BurgerMenu.tsx";
-import {useLayout} from "../../context/UseLayout.tsx";
+import {BurgerMenu} from "@components/utils/burger-menu/BurgerMenu.tsx";
+import {useLayout} from "@context/UseLayout.tsx";
 
 export const Header: FC = () => {
     const {handleBurgerToggle} = useLayout()
