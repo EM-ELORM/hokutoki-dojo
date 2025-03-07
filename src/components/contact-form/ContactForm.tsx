@@ -3,7 +3,6 @@ import './index.adaptive.css'
 import trainers from '@moki/trainers.json'
 import typeTraining from '@moki/typeTraining.json'
 import {FC, useState} from 'react';
-import {getImageUrl} from "@/libs/utils.ts";
 
 export const ContactForm: FC = () => {
     const [isTrainingModalOpen, setIsTrainingModalOpen] = useState(false);
@@ -22,27 +21,24 @@ export const ContactForm: FC = () => {
     };
 
     return (
-        <form className={`pos-form`}>
-            <input type={`text`} placeholder={`Имя *`} className={`input-contact`}/>
-            <input type={`text`} placeholder={`Телефон *`} className={`input-contact`}/>
-            <input type={`text`} placeholder={`Ссылка на социальную сеть`} className={`input-contact`}/>
+        <form className={`pos-contact-form`}>
+            <input placeholder={`Имя *`} className={`input-contact`}/>
+            <input placeholder={`Телефон *`} className={`input-contact`}/>
+            <input placeholder={`Ссылка на социальную сеть`} className={`input-contact`}/>
 
             <>
                 <input
-                    type={`text`}
                     value={selectedTraining || `Тип тренировки *`}
                     onClick={() => setIsTrainingModalOpen(true)}
                     className={`input-contact`}
                     readOnly
                 />
                 {isTrainingModalOpen && (
-                    <div className={`modal`}>
-                        <div className={`list-modal`}>
-                            <button className={`close`} onClick={() => setIsTrainingModalOpen(false)}
-                                    style={{backgroundImage: `url(${getImageUrl(`close.svg`, `svg`)})`}}
-                            ></button>
+                    <div className={`modal-contact`}>
+                        <div className={`list-modal-contact`}>
+                            <button className={`close`} onClick={() => setIsTrainingModalOpen(false)}></button>
                             {typeTraining.map((item, idx) => (
-                                <div className={`element-list`} key={idx}
+                                <div className={`element-list-contact`} key={idx}
                                      onClick={() => handleSelectTraining(`${item.name}`)}>{item.name}</div>
                             ))}
                         </div>
@@ -59,13 +55,11 @@ export const ContactForm: FC = () => {
                     readOnly
                 />
                 {isTrainerModalOpen && (
-                    <div className={`modal`}>
-                        <div className={`list-modal`}>
-                            <button className={`close`} onClick={() => setIsTrainerModalOpen(false)}
-                                    style={{backgroundImage: `url(${getImageUrl(`close.svg`, `svg`)})`}}
-                            ></button>
+                    <div className={`modal-contact`}>
+                        <div className={`list-modal-contact`}>
+                            <button className={`close`} onClick={() => setIsTrainerModalOpen(false)}></button>
                             {trainers.map((item, idx) => (
-                                <div className={`element-list`} key={idx}
+                                <div className={`element-list-contact`} key={idx}
                                      onClick={() => handleSelectTrainer(`${item.trainer.name}`)}>{item.trainer.name}</div>
                             ))}
                         </div>

@@ -9,12 +9,12 @@ export const Reviews: FC = () => {
 
     return (
         <div className={`pos-reviews`}>
-            <div className={`square-scroll`}>
+            <div className={`square-scroll-reviews`}>
                 <div className={`distance-reviews scroll-hide`}>
                     {data.map((item, idx) => (
                         <div className={`content-reviews`} key={idx}>
                             <div className={`img-reviews-content`}
-                                 style={{backgroundImage: `url(${getImageUrl("user.png", `png`)})`}}></div>
+                                 style={{backgroundImage: `url(${getImageUrl(`user.png`, `png`)})`}}></div>
                             <div className={`pos-content-reviews`}>
                                 <span className={`font-bold`}>{item.name}</span>
                                 <span>{item.desc}</span>

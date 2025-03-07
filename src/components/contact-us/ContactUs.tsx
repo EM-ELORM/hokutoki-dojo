@@ -1,8 +1,8 @@
 import './index.css'
 import './index.adaptive.css'
 import {FC} from "react";
-import {ContactForm} from "@components/forms/ContactForm.tsx";
-import {RightArrow} from "@components/utils/rightArrow/RightArrow.tsx";
+import {ContactForm} from "@components/contact-form/ContactForm.tsx";
+import {RightArrow} from "@components/utils/right-arrow/RightArrow.tsx";
 
 export const ContactUs: FC = () => {
     return (

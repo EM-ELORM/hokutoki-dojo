@@ -1,5 +1,5 @@
 @media (max-width: 1275px) {
-    .pos-form {
+    .pos-contact-form {
         @apply mt-10
     }
 }
@@ -13,7 +13,7 @@
         @apply w-[300px]
     }
 
-    .list-modal {
+    .list-modal-contact {
         @apply px-5 py-10
     }
 
@@ -27,7 +27,7 @@
         @apply w-[280px]
     }
 
-    .list-modal {
+    .list-modal-contact {
         @apply px-0 py-8
     }
 

@@ -1,0 +1,77 @@
+@media (max-width: 1028px) {
+    .pos-header-trainer-modal {
+        @apply flex-col gap-y-16
+    }
+
+    .trainer-modal {
+        @apply w-[750px]
+    }
+
+    .btn-trainer-modal {
+        @apply px-4 py-4 text-[16px]
+    }
+}
+
+@media (max-width: 768px) {
+    .trainer-modal {
+        @apply w-[650px]
+    }
+}
+
+@media (max-width: 525px) {
+    .trainer-modal {
+        @apply w-[450px]
+    }
+
+    .img-modal-trainer {
+        @apply w-[295px] h-[295px]
+    }
+
+    .btn-trainer-modal {
+        @apply text-[17px]
+    }
+}
+
+@media (max-width: 425px) {
+    .h1-trainer-modal {
+        @apply text-[30px]
+    }
+
+    .h2-trainer-modal {
+        @apply text-[22px]
+    }
+
+    .trainer-modal {
+        @apply w-[350px]
+    }
+
+    .btn-trainer-modal {
+        @apply text-[15px]
+    }
+
+    .img-modal-trainer {
+        @apply w-[270px] h-[270px]
+    }
+}
+
+@media (max-width: 325px) {
+    .trainer-modal {
+        @apply w-[300px]
+    }
+
+    .btn-trainer-modal {
+        @apply text-[14px]
+    }
+
+    .img-modal-trainer {
+        @apply w-[250px] h-[250px]
+    }
+
+    .h1-trainer-modal {
+        @apply text-[25px]
+    }
+
+    .h2-trainer-modal {
+        @apply text-[18px]
+    }
+}

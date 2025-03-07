@@ -4,7 +4,8 @@
     "color": "--color-trainer-100",
     "trainer": {
       "name": "Хасанов Руслан Альбертович",
-      "phone": "8 (922) 255-66-98"
+      "phone": "8 (922) 255-66-98",
+      "img": "image8.png"
     },
     "price_list": {
       "group_training": [
@@ -28,14 +29,15 @@
         }
       ]
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cupiditate illum perferendis sunt tempora? Adipisci animi aperiam at blanditiis consectetur consequatur..."
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate illum perferendis sunt tempora? Adipisci animi aperiam at blanditiis consectetur consequatur consequuntur dicta dolor earum eius et excepturi id inventore labore laudantium minima nam necessitatibus neque nobis nulla officiis praesentium provident quas, qui quia quod rem, rerum saepe sed tempora vero voluptas voluptate voluptatem. Asperiores deleniti, enim eveniet labore odit possimus praesentium repellat veritatis. Aliquid animi aspernatur at atque commodi consequuntur cumque debitis ea eos esse, facere"
   },
   {
     "id": 101,
     "color": "--color-trainer-101",
     "trainer": {
       "name": "Аксенюк Павел Евгеньевич",
-      "phone": "8 (922) 255-66-98"
+      "phone": "8 (922) 255-66-98",
+      "img": "image8.png"
     },
     "price_list": {
       "group_training": [
@@ -59,14 +61,15 @@
         }
       ]
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cupiditate illum perferendis sunt tempora? Adipisci animi aperiam at blanditiis consectetur consequatur..."
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate illum perferendis sunt tempora? Adipisci animi aperiam at blanditiis consectetur consequatur consequuntur dicta dolor earum eius et excepturi id inventore labore laudantium minima nam necessitatibus neque nobis nulla officiis praesentium provident quas, qui quia quod rem, rerum saepe sed tempora vero voluptas voluptate voluptatem. Asperiores deleniti, enim eveniet labore odit possimus praesentium repellat veritatis. Aliquid animi aspernatur at atque commodi consequuntur cumque debitis ea eos esse, facere"
   },
   {
     "id": 102,
     "color": "--color-trainer-102",
     "trainer": {
       "name": "Михтахов Камиль Рамильевич",
-      "phone": "8 (922) 255-66-98"
+      "phone": "8 (922) 255-66-98",
+      "img": "image8.png"
     },
     "price_list": {
       "group_training": [
@@ -90,7 +93,7 @@
         }
       ]
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cupiditate illum perferendis sunt tempora? Adipisci animi aperiam at blanditiis consectetur consequatur..."
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate illum perferendis sunt tempora? Adipisci animi aperiam at blanditiis consectetur consequatur consequuntur dicta dolor earum eius et excepturi id inventore labore laudantium minima nam necessitatibus neque nobis nulla officiis praesentium provident quas, qui quia quod rem, rerum saepe sed tempora vero voluptas voluptate voluptatem. Asperiores deleniti, enim eveniet labore odit possimus praesentium repellat veritatis. Aliquid animi aspernatur at atque commodi consequuntur cumque debitis ea eos esse, facere"
   }
 ]
 

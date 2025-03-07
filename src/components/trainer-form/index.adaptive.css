@@ -1,0 +1,55 @@
+@media (max-width: 768px) {
+    .input-trainer {
+        @apply w-[400px]
+    }
+
+    .btn-trainer {
+        @apply w-[400px]
+    }
+}
+
+@media (max-width: 768px) {
+    .input-trainer {
+        @apply w-[320px]
+    }
+
+    .btn-trainer {
+        @apply w-[320px] text-[18px]
+    }
+}
+
+@media (max-width: 425px) {
+    .list-modal-trainer {
+        @apply px-5 py-10
+    }
+
+    .input-trainer {
+        @apply w-[280px]
+    }
+
+    .btn-trainer {
+        @apply w-[280px] text-[16px]
+    }
+
+    .close {
+        @apply w-[30px] h-[30px]
+    }
+}
+
+@media (max-width: 325px) {
+    .input-trainer {
+        @apply w-[250px] text-[16px] h-[50px]
+    }
+
+    .list-modal-trainer {
+        @apply px-0 py-8
+    }
+
+    .btn-trainer {
+        @apply w-[250px] text-[16px] h-[50px]
+    }
+
+    .pos-content-desc-trainer-modal {
+        @apply text-[16px]
+    }
+}

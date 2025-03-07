@@ -11,7 +11,7 @@
         @apply items-center
     }
 
-    .square-scroll {
+    .square-scroll-reviews {
         @apply w-[425px] h-[77rem]
     }
 
@@ -25,7 +25,7 @@
 }
 
 @media (max-width: 425px) {
-    .square-scroll {
+    .square-scroll-reviews {
         @apply w-[280px] h-[67rem]
     }
 }

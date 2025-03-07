@@ -9,4 +9,8 @@
     .pos-content-burger-menu {
         @apply flex w-full flex-col justify-center items-center text-[30px];
     }
+
+    .nav-hover {
+        @apply hover:text-[#C0241B] cursor-pointer
+    }
 }

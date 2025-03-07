@@ -5,7 +5,7 @@
         @apply w-full flex justify-between mt-10
     }
 
-    .square-scroll {
+    .square-scroll-reviews {
         @apply w-[95%] h-[45rem] relative
     }
 

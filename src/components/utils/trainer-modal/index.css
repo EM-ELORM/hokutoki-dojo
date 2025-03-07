@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .trainer-modal-screen {
+        @apply w-[100vw] h-[100vh] flex items-center justify-center fixed z-[2] bg-[#0000002e];
+    }
+
+    .trainer-modal {
+        @apply w-[1028px] h-[800px] bg-white flex rounded-[5px] relative;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+
+    .square-scroll-trainer-modal {
+        @apply h-[45rem] relative
+    }
+
+    .scroll-content-trainer-modal {
+        @apply h-full overflow-y-scroll
+    }
+
+    .pos-content-trainer-modal {
+        @apply flex w-full flex-col justify-center items-center text-[30px];
+    }
+
+    .img-modal-trainer {
+        @apply w-[320px] h-[320px] bg-cover bg-center
+    }
+
+    .h1-trainer-modal {
+        @apply text-center font-lemon text-[35px]
+    }
+
+    .h2-trainer-modal {
+        @apply text-center font-lemon mt-[3.5rem] mb-[2.5rem] text-[25px]
+    }
+
+    .center-header-trainer-modal {
+        @apply flex justify-center items-center
+    }
+
+    .pos-header-trainer-modal {
+        @apply flex justify-between items-center w-[85%] mt-10
+    }
+
+    .pos-but-header-trainer-modal {
+        @apply flex flex-col gap-y-10
+    }
+
+    .btn-trainer-modal {
+        @apply text-[#fff] text-center font-lemon text-[20px] rounded-[5px] px-5 py-5
+    }
+
+    .pos-content-desc-trainer-modal {
+        @apply w-[85%] bg-[#CFCDCD] rounded-[5px] text-[20px] px-5 py-5
+    }
+}
