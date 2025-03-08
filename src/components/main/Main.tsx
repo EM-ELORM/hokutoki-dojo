@@ -14,7 +14,7 @@ export const Main: FC = () => {
         <>
             {isOpenNavModal && (<NavModal/>)}
             {isOpenTrainerModal && (<TrainerModal/>)}
-            <section className={`bg-main`}>
+            <section id={`main`} className={`bg-main`}>
                 <div className={`main-center`}>
                     <div className={`main-container`}>
                         <Header/>
@@ -27,7 +27,7 @@ export const Main: FC = () => {
                             <DownArrow size={`var(--size-main-line)`}/>
                         </div>
                         <div className={`btn-center`}>
-                            <a href={``} className={`btn-red-a`}>
+                            <a href={`#contact`} className={`btn-red-a`}>
                                 Хочу присоединиться
                             </a>
                         </div>

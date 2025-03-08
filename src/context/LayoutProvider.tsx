@@ -1,23 +1,7 @@
-import React, {createContext, FC, ReactNode, useState} from 'react'
-
-interface LayoutContextProps {
-    isOpenNavModal: boolean;
-    handleBurgerToggle: () => void;
-    isOpenTrainerModal: boolean;
-    handleOpenTrainerModal: ({trainerId}: HandleOpenTrainerModalProps) => void;
-    setIsOpenTrainerModal: React.Dispatch<React.SetStateAction<boolean>>;
-    trainerId: number;
-}
+import {createContext, FC, useState} from 'react'
+import {HandleOpenTrainerModalProps, LayoutContextProps, LayoutProviderProps} from "@/interface";
 
 export const LayoutContext = createContext<LayoutContextProps | undefined>(undefined)
-
-interface LayoutProviderProps {
-    children: ReactNode;
-}
-
-interface HandleOpenTrainerModalProps {
-    trainerId: number
-}
 
 export const LayoutProvider: FC<LayoutProviderProps> = ({children}) => {
     const [isOpenNavModal, setIsOpenNavModal] = useState(false)

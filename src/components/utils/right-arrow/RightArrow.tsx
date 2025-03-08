@@ -1,9 +1,6 @@
 import './index.css'
 import './index.adaptive.css'
-
-interface WhiteArrowProps {
-    size?: string;
-}
+import {WhiteArrowProps} from "@/interface";
 
 export const RightArrow = ({size}: WhiteArrowProps) => {
     return (

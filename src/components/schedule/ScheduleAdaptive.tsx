@@ -1,21 +1,8 @@
 import {FC, useState} from "react";
 import {useLayout} from "@context/UseLayout.tsx";
+import {ScheduleAdaptiveProps} from "@/interface";
 
-interface ScheduleAdaptiveProps {
-    headers: {
-        desc: string;
-        weekday: string[];
-    }[];
-    selectedSchedule?: {
-        id: number;
-        schedule: {
-            lessons: string;
-            times: string[];
-            color: string;
-            trainerId: number;
-        }[];
-    };
-}
+
 
 export const ScheduleAdaptive: FC<ScheduleAdaptiveProps> = (
     {

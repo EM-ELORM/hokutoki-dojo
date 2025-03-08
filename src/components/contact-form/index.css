@@ -16,12 +16,14 @@
         border-[2px]
         border-[#fff]
         mb-4
+        focus:outline-none
+        focus:bg-transparent
         focus:ring-white
         focus:border-white
         placeholder-white
         text-white
         py-2
-        px-4
+        px-4;
     }
 
     .modal-contact {

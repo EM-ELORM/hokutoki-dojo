@@ -43,7 +43,7 @@
     }
 
     .pos-list-group {
-        @apply mt-[5rem]
+        @apply mt-[3rem]
     }
 
     .border-column-price {

@@ -3,12 +3,7 @@ import './index.adaptive.css'
 import trainers from '@moki/trainers.json'
 import {FC} from "react";
 import {useLayout} from "@/context/UseLayout.tsx";
-
-interface PriceProps {
-    trainerId?: number | null;
-    textColor?: string | null;
-    mt?: string | null;
-}
+import {PriceProps} from "@/interface";
 
 export const Price: FC<PriceProps> = (
     {
@@ -45,7 +40,7 @@ export const Price: FC<PriceProps> = (
                         <div>Индивидуальные тренировки</div>
                     </div>
 
-                    <div className={`pos-list-group ${mt ? mt : null}`}>
+                    <div className={`pos-list-group`}>
 
                         <div className={`pos-type-training adaptive ${textColor ? textColor : null}`}
                              style={{borderBottom: `3px solid var(${trainer.color})`}}>

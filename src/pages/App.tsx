@@ -12,6 +12,7 @@ import {Schedule} from "@components/schedule/Schedule.tsx";
 import {Reviews} from "@components/reviews/Reviews.tsx";
 import {ContactUs} from "@components/contact-us/ContactUs.tsx";
 import {Footer} from "@components/footer/Footer.tsx";
+import {ScrollUpButton} from "@components/scroll-up-button/ScrollUpButton.tsx";
 
 export const App: FC = () => {
     return (
@@ -19,46 +20,46 @@ export const App: FC = () => {
             <LayoutProvider>
                 <Main/>
                 <div className={`section-m-top-28`}>
-                    <CustomSectionOne header={`О нас`} descSection={`Традиции и опыт`}>
+                    <CustomSectionOne id={`about-us`} header={`О нас`} descSection={`Традиции и опыт`}>
                         <AboutUs/>
                     </CustomSectionOne>
                 </div>
                 <div className={`section-m-top-28`}>
-                    <CustomSectionOne descSection={`Победы`}>
+                    <CustomSectionOne id={`victory`} descSection={`Победы`}>
                         <Victory/>
                     </CustomSectionOne>
                 </div>
                 <div className={`section-m-top-28`}>
-                    <CustomSectionOne descSection={`Местоположение`}>
+                    <CustomSectionOne id={`yandex-map`} descSection={`Местоположение`}>
                         <YandexMap/>
                     </CustomSectionOne>
                 </div>
                 <div className={`section-m-top-28`}>
-                    <CustomSectionOne header={`Галерея`} descSection={`Наши Моменты`}>
+                    <CustomSectionOne id={`gallery`} header={`Галерея`} descSection={`Наши Моменты`}>
                         <Gallery/>
                     </CustomSectionOne>
                 </div>
                 <div className={`section-m-top-28`}>
                     <div className={`bg-section-two`}>
                         <div className={`section-p-top-28`}>
-                            <CustomSectionTwo header={`Расписание и стоимость`} descSection={`Стоимость`}>
+                            <CustomSectionTwo id={`price`} header={`Расписание и стоимость`} descSection={`Стоимость`}>
                                 <Price/>
                             </CustomSectionTwo>
                         </div>
                         <div className={`section-m-top-28`}>
-                            <CustomSectionTwo descSection={`Время проведения тренировок`}>
+                            <CustomSectionTwo id={`schedule`} descSection={`Время проведения тренировок`}>
                                 <Schedule/>
                             </CustomSectionTwo>
                         </div>
                         <div className={`section-m-top-28`}>
-                            <CustomSectionTwo header={`Отзывы`} descSection={`Наши оценки`}>
+                            <CustomSectionTwo id={`reviews`} header={`Отзывы`} descSection={`Наши оценки`}>
                                 <Reviews/>
                             </CustomSectionTwo>
                         </div>
                     </div>
                     <div className={`bg-gradient`}>
                         <div className={`section-p-top-28`}>
-                            <CustomSectionTwo header={`Контакты`} descSection={`Связаться с нами`} width={`1275px`}>
+                            <CustomSectionTwo id={`contact`} header={`Контакты`} descSection={`Связаться с нами`} width={`1275px`}>
                                 <ContactUs/>
                             </CustomSectionTwo>
                         </div>
@@ -69,6 +70,7 @@ export const App: FC = () => {
                         </div>
                     </div>
                 </div>
+                <ScrollUpButton/>
             </LayoutProvider>
         </>
     )
