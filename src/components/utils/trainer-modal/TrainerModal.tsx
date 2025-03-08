@@ -6,17 +6,7 @@ import {useEffect, useState} from "react";
 import {getImageUrl} from "@/libs/utils.ts";
 import {Price} from "@components/price/Price.tsx";
 import {TrainerModalForm} from "@components/trainer-form/TrainerModalForm.tsx";
-
-interface Trainer {
-    id: number;
-    color: string;
-    trainer: {
-        name: string;
-        phone: string;
-        img: string;
-    };
-    description: string;
-}
+import {Trainer} from "@/interface";
 
 export const TrainerModal = () => {
     const {setIsOpenTrainerModal, trainerId} = useLayout();
@@ -87,7 +77,10 @@ export const TrainerModal = () => {
 
                             <h2 className={`h2-trainer-modal`}>Свяжитесь с тренером</h2>
 
-                            <TrainerModalForm bgButtonTrainer={`${trainer?.color}`}/>
+                            <TrainerModalForm
+                                bgButtonTrainer={`${trainer?.color}`}
+                                trainerId={`${trainer?.trainer.chatId}`}
+                            />
                         </div>
                     </div>
                 </div>

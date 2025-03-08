@@ -14,15 +14,38 @@
         h-[60px]
         rounded-[25px]
         border-[2px]
-        border-[#000]
+        border-black
         mb-4
+        placeholder-black
+        focus:outline-none
+        focus:bg-transparent
         focus:ring-black
         focus:border-black
+        text-black
+        text-[18px]
+        py-2
+        px-4;
+    }
+
+    .input-trainer-phone {
+        @apply
+        bg-transparent
+        w-[650px]
+        h-[60px]
+        rounded-[25px]
+        border-[2px]
+        border-black
+        mb-4
         placeholder-black
+        focus:outline-none
+        focus:bg-transparent
+        focus:ring-black
+        focus:border-black
         text-black
         text-[18px]
         py-2
         px-4
+        !important;
     }
 
     .modal-trainer {

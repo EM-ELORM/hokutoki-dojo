@@ -5,7 +5,8 @@
     "trainer": {
       "name": "Хасанов Руслан Альбертович",
       "phone": "8 (922) 255-66-98",
-      "img": "image8.png"
+      "img": "image8.png",
+      "chatId": "VITE_CHAT_ID_100"
     },
     "price_list": {
       "group_training": [
@@ -37,7 +38,8 @@
     "trainer": {
       "name": "Аксенюк Павел Евгеньевич",
       "phone": "8 (922) 255-66-98",
-      "img": "image8.png"
+      "img": "image8.png",
+      "chatId": "VITE_CHAT_ID_101"
     },
     "price_list": {
       "group_training": [
@@ -69,7 +71,8 @@
     "trainer": {
       "name": "Михтахов Камиль Рамильевич",
       "phone": "8 (922) 255-66-98",
-      "img": "image8.png"
+      "img": "image8.png",
+      "chatId": "VITE_CHAT_ID_102"
     },
     "price_list": {
       "group_training": [

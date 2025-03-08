@@ -3,6 +3,10 @@
         @apply w-[400px]
     }
 
+    .input-trainer-phone {
+        @apply w-[400px] !important;
+    }
+
     .btn-trainer {
         @apply w-[400px]
     }
@@ -11,6 +15,10 @@
 @media (max-width: 768px) {
     .input-trainer {
         @apply w-[320px]
+    }
+
+    .input-trainer-phone {
+        @apply w-[320px] !important;
     }
 
     .btn-trainer {
@@ -27,6 +35,10 @@
         @apply w-[280px]
     }
 
+    .input-trainer-phone {
+        @apply w-[280px] !important;
+    }
+
     .btn-trainer {
         @apply w-[280px] text-[16px]
     }
@@ -39,6 +51,10 @@
 @media (max-width: 325px) {
     .input-trainer {
         @apply w-[250px] text-[16px] h-[50px]
+    }
+
+    .input-trainer-phone {
+        @apply w-[250px] text-[16px] h-[50px] !important;
     }
 
     .list-modal-trainer {

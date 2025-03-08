@@ -1,27 +1,30 @@
 import './index.css'
+import {useLayout} from "@context/UseLayout.tsx";
 
 export const NavModal = () => {
+    const {handleBurgerToggle} = useLayout()
     return (
         <div className={`modal-screen`}>
             <div className={`nav-modal`}>
+                <button className={`close`} onClick={() => handleBurgerToggle()}></button>
                 <div className={`pos-content-burger-menu`}>
                 <span className={`nav-hover`}>
-                    <a href="">Главная</a>
+                    <a href="#main">Главная</a>
                 </span>
                     <span className={`nav-hover`}>
-                    <a href="">О нас</a>
+                    <a href="#about-us">О нас</a>
                 </span>
                     <span className={`nav-hover`}>
-                    <a href="">Галерея</a>
+                    <a href="#gallery">Галерея</a>
                 </span>
                     <span className={`nav-hover`}>
-                    <a href="">Расписание</a>
+                    <a href="#schedule">Расписание</a>
                 </span>
                     <span className={`nav-hover`}>
-                    <a href="">Отзывы</a>
+                    <a href="#reviews">Отзывы</a>
                 </span>
                     <span className={`nav-hover`}>
-                    <a href="">Контакты</a>
+                    <a href="#contact">Контакты</a>
                 </span>
                 </div>
             </div>

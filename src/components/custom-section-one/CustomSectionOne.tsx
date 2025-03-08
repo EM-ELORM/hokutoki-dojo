@@ -1,21 +1,17 @@
 import './index.css'
-import React, {FC} from "react";
+import {FC} from "react";
+import {CustomSectionPropsOne} from "@/interface";
 
-interface CustomSectionProps {
-    header?: string
-    descSection?: string
-    children?: React.ReactNode
-}
-
-export const CustomSectionOne: FC<CustomSectionProps> = (
+export const CustomSectionOne: FC<CustomSectionPropsOne> = (
     {
         header,
         descSection,
-        children
+        children,
+        id
     }
 ) => {
     return (
-        <section className={`main-center`}>
+        <section className={`main-center`} id={id}>
             <div className={`main-container`}>
                 <div className={`center-custom-section`}>
                     {header && (

@@ -4,7 +4,15 @@
     }
 
     .trainer-modal {
-        @apply w-[750px]
+        @apply w-[750px] h-[700px]
+    }
+
+    .square-scroll-trainer-modal {
+        @apply h-[40rem]
+    }
+
+    .scroll-content-trainer-modal {
+        @apply h-[40rem]
     }
 
     .btn-trainer-modal {
@@ -19,6 +27,14 @@
 }
 
 @media (max-width: 525px) {
+    .square-scroll-trainer-modal {
+        @apply h-[37rem]
+    }
+
+    .scroll-content-trainer-modal {
+        @apply h-[37rem]
+    }
+
     .trainer-modal {
         @apply w-[450px]
     }
