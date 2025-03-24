@@ -3,7 +3,6 @@ import {useLayout} from "@context/UseLayout.tsx";
 import {ScheduleAdaptiveProps} from "@/interface";
 
 
-
 export const ScheduleAdaptive: FC<ScheduleAdaptiveProps> = (
     {
         headers,
@@ -11,35 +10,34 @@ export const ScheduleAdaptive: FC<ScheduleAdaptiveProps> = (
     }
 ) => {
     const {handleOpenTrainerModal} = useLayout();
-    const [activeLesson, setActiveLesson] = useState<string | null>(null);
+    const [activeLesson, setActiveLesson] = useState<number | null>(null);
 
-    const toggleLesson = (lesson: string) => {
-        setActiveLesson(activeLesson === lesson ? null : lesson);
+    const toggleLesson = (id: number) => {
+        setActiveLesson(activeLesson === id ? null : id);
     };
 
     return (
         <div className={`pos-column-schedule-adaptive`}>
-            {headers.map((item) => (
-                <div className={`header-schedule index-one`} key={item.desc}>
+            {headers.map((item, i) => (
+                <div className={`header-schedule index-one`} key={`${item.desc}-${i}`}>
                     {item.desc}
                 </div>
             ))}
             {selectedSchedule?.schedule.map((item) => (
-                <div className={`pos-column-schedule-adaptive`} key={item.lessons}>
+                <div className={`pos-column-schedule-adaptive`} key={`${item.id}`}>
                     <button
                         className={`time-schedule index-one`}
                         style={{background: `var(${item.color})`}}
-                        onClick={() => toggleLesson(item.lessons)}
+                        onClick={() => toggleLesson(item.id)}
                     >
                         {item.lessons}
                     </button>
-                    {activeLesson === item.lessons && (
+                    {activeLesson === item.id && (
                         <div className={`pos-element-column-adaptive`}>
-                            {headers.map((item) => (
-
-                                <div className={`dis-element-column-adaptive`} key={item.desc}>
-                                    {item.weekday.map((weekday) => (
-                                        <div className={`header-schedule`} key={weekday}>
+                            {headers.map((header, index) => (
+                                <div className={`dis-element-column-adaptive`} key={`${header.desc}-${index}`}>
+                                    {header.weekday.map((weekday, index) => (
+                                        <div className={`header-schedule`} key={`${weekday}-${index}`}>
                                             {weekday}
                                         </div>
                                     ))}
@@ -49,9 +47,12 @@ export const ScheduleAdaptive: FC<ScheduleAdaptiveProps> = (
                                 {item.times.map((time, index) => (
                                     <div
                                         className={`time-schedule`}
-                                        style={{background: `var(${item.color})`}}
-                                        key={index}
-                                        onClick={() => handleOpenTrainerModal({trainerId: item.trainerId})}
+                                        style={{
+                                            background: time === '' ? '#CECECE' : `var(${item.color})`,
+                                            cursor: time !== '' ? 'pointer' : ''
+                                        }}
+                                        key={`${index}-${time}`}
+                                        onClick={() => time !== '' && handleOpenTrainerModal({trainerId: item.trainerId})}
                                     >
                                         {time}
                                     </div>

@@ -94,10 +94,13 @@ export const Schedule: FC = () => {
                                 <div
                                     key={index}
                                     className={`time-schedule`}
-                                    style={{background: `var(${item.color})`}}
-                                    onMouseEnter={(e) => handleMouseEnter(item.trainerId, e)}
-                                    onMouseLeave={handleMouseLeave}
-                                    onClick={() => handleOpenTrainerModal({trainerId: item.trainerId})}
+                                    style={{
+                                        background: time === '' ? '#CECECE' : `var(${item.color})`,
+                                        cursor: time !== '' ? 'pointer' : ''
+                                    }}
+                                    onMouseEnter={(e) => time !== '' && handleMouseEnter(item.trainerId, e)}
+                                    onMouseLeave={time !== '' ? handleMouseLeave : undefined}
+                                    onClick={() => time !== '' && handleOpenTrainerModal({ trainerId: item.trainerId })}
                                 >
                                     {time}
                                 </div>

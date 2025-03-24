@@ -2,11 +2,11 @@
 
 @layer components {
     .pos-about-us {
-        @apply flex flex-col items-center mt-[3.5rem];
+        @apply mt-[3.5rem];
     }
 
     .content-about-us {
-        @apply flex flex-wrap justify-center gap-x-10 gap-y-10;
+        @apply flex flex-wrap justify-center gap-x-10 gap-y-20;
     }
 
     .block-content {

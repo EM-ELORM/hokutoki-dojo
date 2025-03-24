@@ -22,10 +22,14 @@
     }
 
     .pos-content-reviews {
-        @apply w-[820px] flex flex-col gap-y-4
+        @apply w-[820px] flex flex-col gap-y-4 relative
     }
 
     .line-reviews {
         @apply w-[3px] h-[45rem] bg-white rounded-[40px]
+    }
+
+    .desc-reviews {
+        @apply h-[75px] overflow-y-scroll
     }
 }

@@ -17,7 +17,7 @@ export const Reviews: FC = () => {
                                  style={{backgroundImage: `url(${getImageUrl(`user.png`, `png`)})`}}></div>
                             <div className={`pos-content-reviews`}>
                                 <span className={`font-bold`}>{item.name}</span>
-                                <span>{item.desc}</span>
+                                <span className={`desc-reviews scroll-hide`}>{item.desc}</span>
                             </div>
                         </div>
                     ))}
