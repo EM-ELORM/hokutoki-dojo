@@ -31,11 +31,11 @@
     }
 
     .time-schedule.index-one {
-        @apply w-[13em]
+        @apply w-[13em] cursor-pointer
     }
 
     .time-schedule {
-        @apply rounded-[5px] font-lemon text-[14px] flex items-center justify-center h-[4.2em] w-[8em] text-white cursor-pointer
+        @apply rounded-[5px] font-lemon text-[14px] flex items-center justify-center h-[4.2em] w-[8em] text-white
     }
 
     .pos-column-schedule-adaptive {

@@ -21,6 +21,7 @@ export interface ScheduleAdaptiveProps {
     selectedSchedule?: {
         id: number;
         schedule: {
+            id: number;
             lessons: string;
             times: string[];
             color: string;

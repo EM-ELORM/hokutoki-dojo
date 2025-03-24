@@ -22,10 +22,26 @@
     .pos-content-reviews {
         @apply w-full items-center
     }
+
+    .img-reviews-content {
+        @apply w-[80px] h-[80px]
+    }
 }
 
 @media (max-width: 425px) {
     .square-scroll-reviews {
         @apply w-[280px] h-[67rem]
+    }
+
+    .img-reviews-content {
+        @apply w-[65px] h-[65px]
+    }
+
+    .desc-reviews {
+        @apply h-[150px]
+    }
+
+    .content-reviews {
+        @apply h-full
     }
 }
