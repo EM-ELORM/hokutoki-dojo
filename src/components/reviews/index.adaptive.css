@@ -1,47 +1,77 @@
 @media (max-width: 1028px) {
-    .line-reviews {
-        display: none;
+    .pos-reviews {
+        @apply w-[45%]
     }
 
-    .pos-reviews {
-        @apply items-center justify-center
+    .img-reviews-content {
+        @apply w-[55px] h-[55px]
     }
 
     .distance-reviews {
         @apply items-center
     }
 
+    .pos-content-reviews {
+        @apply w-full flex flex-col items-center
+    }
+
+    .name-reviews {
+        @apply mt-4 mb-4
+    }
+
     .square-scroll-reviews {
-        @apply w-[425px] h-[77rem]
+        @apply w-[425px]
+    }
+
+    .line-reviews-black {
+        @apply h-full
     }
 
     .content-reviews {
         @apply flex-col h-[50%]
     }
 
-    .pos-content-reviews {
-        @apply w-full items-center
-    }
-
-    .img-reviews-content {
-        @apply w-[80px] h-[80px]
+    .desc-reviews {
+        @apply h-[80px] w-[95%]
     }
 }
 
 @media (max-width: 425px) {
+    .pos-reviews {
+        @apply w-[80%]
+    }
+
     .square-scroll-reviews {
-        @apply w-[280px] h-[67rem]
+        @apply w-[280px]
     }
 
     .img-reviews-content {
-        @apply w-[65px] h-[65px]
+        @apply w-[50px] h-[50px]
     }
 
     .desc-reviews {
-        @apply h-[150px]
+        @apply h-[120px] w-[80%]
     }
 
     .content-reviews {
         @apply h-full
+    }
+
+    .line-reviews-black {
+        @apply h-[8rem]
+    }
+}
+
+@media (max-width: 325px) {
+    .pos-reviews {
+        @apply w-[90%]
+    }
+
+    .content-reviews {
+        @apply w-[90%]
+    }
+
+    .desc-reviews {
+        @apply h-[120px] w-[85%]
     }
 }

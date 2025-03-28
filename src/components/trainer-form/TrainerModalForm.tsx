@@ -62,7 +62,7 @@ export const TrainerModalForm: FC<TrainerModalProps> = (
                         <input
                             {...field}
                             placeholder={`Имя *`}
-                            className={`input-trainer`}
+                            className={`input-trainer ${errors.name ? 'input-error' : ''}`}
                         />
                         {errors.name &&
                             <span className={`error-trainer-message`}>{errors.name.message}</span>}
@@ -79,7 +79,7 @@ export const TrainerModalForm: FC<TrainerModalProps> = (
                             {...field}
                             mask={`+7(999)999-99-99`}
                             placeholder={`Телефон *`}
-                            className={`input-trainer-phone`}
+                            className={`input-trainer-phone ${errors.phone ? 'input-error' : ''}`}
                         />
                         {errors.phone &&
                             <span className={`error-trainer-message`}>{errors.phone.message}</span>}
@@ -96,7 +96,7 @@ export const TrainerModalForm: FC<TrainerModalProps> = (
                             {...field}
                             value={field.value ?? ''}
                             placeholder={`Ссылка на Telegram, VK или WhatsApp`}
-                            className={`input-trainer`}
+                            className={`input-trainer ${errors.socialLink ? 'input-error' : ''}`}
                         />
                         {errors.socialLink &&
                             <span className={`error-trainer-message`}>{errors.socialLink.message}</span>}
@@ -112,7 +112,7 @@ export const TrainerModalForm: FC<TrainerModalProps> = (
                         <input
                             value={field.value || `Тип тренировки *`}
                             onClick={() => setIsTrainingModalOpen(true)}
-                            className={`input-trainer`}
+                            className={`input-trainer ${errors.training ? 'input-error' : ''}`}
                             readOnly
                         />
                         {errors.training &&

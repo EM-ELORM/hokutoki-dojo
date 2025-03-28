@@ -48,6 +48,10 @@
         !important;
     }
 
+    .input-error {
+        @apply border-red-800 !important;
+    }
+
     .modal-trainer {
         @apply fixed top-0 left-0 right-0 bottom-0 bg-[#0000002e] flex justify-center items-center text-center;
     }

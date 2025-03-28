@@ -23,13 +23,14 @@ export const Footer: FC = () => {
             {socialIcons.length > 0 && (
                 <div className={`block-img`}>
                     {socialIcons.map((item, index) => (
-                        <div
+                        <a
                             key={index}
-                            className={`img-social-link`}
-                            style={{backgroundImage: `url('${getImageUrl(item.img, `svg`)}')`}}
-                        >
-                            <a href={item.link} target={`_blank`} rel={`noopener noreferrer`}></a>
-                        </div>
+                            href={item.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="img-social-link"
+                            style={{backgroundImage: `url('${getImageUrl(item.img, 'svg')}')`}}
+                        />
                     ))}
                 </div>
             )}

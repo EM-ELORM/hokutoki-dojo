@@ -14,22 +14,34 @@
     }
 
     .content-reviews {
-        @apply w-full h-[22%] flex justify-between items-center bg-white rounded-[40px] p-5
+        @apply w-full h-[17%] flex justify-between items-center bg-white rounded-[40px] p-5
     }
 
     .img-reviews-content {
-        @apply h-[100px] w-[100px] rounded-[25px] bg-center bg-cover
+        @apply h-[80px] w-[80px] rounded-[25px] bg-center bg-cover
     }
 
     .pos-content-reviews {
-        @apply w-[820px] flex flex-col gap-y-4 relative
+        @apply w-[820px] flex flex-col gap-y-2 relative
     }
 
-    .line-reviews {
+    .line-reviews-white {
         @apply w-[3px] h-[45rem] bg-white rounded-[40px]
     }
 
+    .line-reviews-black {
+        @apply w-[3px] bg-black rounded-[40px]
+    }
+
     .desc-reviews {
-        @apply h-[75px] overflow-y-scroll
+        @apply h-[50px] w-[90%] break-words overflow-y-scroll
+    }
+
+    .name-reviews {
+        @apply font-lemon
+    }
+
+    .pos-desc-content-reviews {
+        @apply flex justify-between
     }
 }

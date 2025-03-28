@@ -16,14 +16,17 @@ export const Reviews: FC = () => {
                             <div className={`img-reviews-content`}
                                  style={{backgroundImage: `url(${getImageUrl(`user.png`, `png`)})`}}></div>
                             <div className={`pos-content-reviews`}>
-                                <span className={`font-bold`}>{item.name}</span>
-                                <span className={`desc-reviews scroll-hide`}>{item.desc}</span>
+                                <span className={`name-reviews`}>{item.name}</span>
+                                <div className={`pos-desc-content-reviews`}>
+                                    <span className={`desc-reviews scroll-hide`}>{item.desc}</span>
+                                    <div className={`line-reviews-black`}></div>
+                                </div>
                             </div>
                         </div>
                     ))}
                 </div>
             </div>
-            <div className={`line-reviews`}></div>
+            <div className={`line-reviews-white`}></div>
         </div>
     )
 }

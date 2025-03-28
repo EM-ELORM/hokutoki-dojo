@@ -122,6 +122,10 @@ export const Schedule: FC = () => {
                 )}
 
                 <ScheduleAdaptive headers={headers} selectedSchedule={selectedSchedule}/>
+
+                <div className={`pos-schedule-info`}>
+                    <div className={`schedule-info`}>*Расписание по субботам может измениться</div>
+                </div>
             </div>
         </>
     );

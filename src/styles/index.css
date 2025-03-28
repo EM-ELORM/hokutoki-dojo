@@ -162,7 +162,7 @@ input[type="password"]::-ms-clear {
     }
 
     .error-trainer-message {
-        @apply text-black text-[16px] mb-4 text-center
+        @apply text-red-800 text-[16px] mb-4 text-center
     }
 }
 

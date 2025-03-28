@@ -6,7 +6,7 @@
     }
 
     .content-win {
-        @apply flex flex-wrap justify-center gap-x-2 gap-y-10
+        @apply flex flex-wrap justify-center gap-x-[1.1rem] gap-y-10
     }
 
     .img-victory {
@@ -14,10 +14,14 @@
     }
 
     .desc-center-win {
-        @apply flex justify-center flex-col items-center mt-8
+        @apply flex justify-center flex-col items-center text-center
     }
 
     .text-desc-win {
-        @apply text-[24px]
+        @apply text-[24px] w-80
+    }
+
+    .victory-item {
+        @apply flex items-center flex-col gap-y-8
     }
 }

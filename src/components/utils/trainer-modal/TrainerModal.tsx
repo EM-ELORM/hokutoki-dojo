@@ -34,7 +34,7 @@ export const TrainerModal = () => {
                                     <div
                                         className={`img-modal-trainer`}
                                         style={{
-                                            backgroundImage: `url('${getImageUrl(`${trainer?.trainer.img}`, `png`)}')`
+                                            backgroundImage: `url('${getImageUrl(`${trainer?.trainer.img}`, `jpg`)}')`
                                         }}
                                     ></div>
                                     <div className={`pos-but-header-trainer-modal`}>
@@ -67,13 +67,13 @@ export const TrainerModal = () => {
                                 mt={`mt-[0px]`}
                             />
 
-                            <h2 className={`h2-trainer-modal`}>Описание</h2>
+                            {/*<h2 className={`h2-trainer-modal`}>Описание</h2>*/}
 
-                            <div className={`center-header-trainer-modal`}>
-                                <div className={`pos-content-desc-trainer-modal`}>
-                                    {trainer?.description}
-                                </div>
-                            </div>
+                            {/*<div className={`center-header-trainer-modal`}>*/}
+                            {/*    <div className={`pos-content-desc-trainer-modal`}>*/}
+                            {/*        {trainer?.description}*/}
+                            {/*    </div>*/}
+                            {/*</div>*/}
 
                             <h2 className={`h2-trainer-modal`}>Свяжитесь с тренером</h2>
 

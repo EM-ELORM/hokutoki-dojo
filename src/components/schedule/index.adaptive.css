@@ -9,6 +9,10 @@
         display: none;
     }
 
+    .pos-schedule-info {
+        @apply ml-[0px] items-center justify-center text-center
+    }
+
     .pos-column-schedule-adaptive {
         display: flex !important;
         @apply items-center
@@ -38,5 +42,11 @@
 
     .time-schedule {
         @apply w-[14em]
+    }
+}
+
+@media (max-width: 325px) {
+    .schedule-info {
+        @apply text-[14px]
     }
 }

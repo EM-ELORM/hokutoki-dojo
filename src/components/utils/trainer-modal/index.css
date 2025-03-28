@@ -41,7 +41,7 @@
     }
 
     .pos-header-trainer-modal {
-        @apply flex justify-between items-center w-[85%] mt-10
+        @apply flex justify-between items-center w-full mt-10
     }
 
     .pos-but-header-trainer-modal {

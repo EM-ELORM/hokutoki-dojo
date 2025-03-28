@@ -1,4 +1,4 @@
-export const getImageUrl = (imageName: string, type: 'svg' | 'png') => {
+export const getImageUrl = (imageName: string, type: 'svg' | 'png' | 'jpg') => {
     return `${import.meta.env.BASE_URL}/img/${type}/${imageName}`;
 };
 
