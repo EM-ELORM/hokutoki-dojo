@@ -10,11 +10,11 @@
     }
 
     .pos-type-training {
-        @apply w-[90%] flex justify-between mt-8 pb-8 text-[20px] text-[#fff]
+        @apply w-full flex justify-between mt-8 pb-8 text-[20px] text-[#fff]
     }
 
     .pos-list-group {
-        @apply w-[90%] flex justify-between mt-8
+        @apply w-full flex justify-between mt-8
     }
 
     .pos-column {
@@ -26,6 +26,6 @@
     }
 
     .border-column-price {
-        @apply h-[175px]
+        @apply h-[175px] ml-10 mr-10
     }
 }

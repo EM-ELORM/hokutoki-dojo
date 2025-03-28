@@ -25,7 +25,7 @@ export const App: FC = () => {
                     </CustomSectionOne>
                 </div>
                 <div className={`section-m-top-28`}>
-                    <CustomSectionOne id={`victory`} descSection={`Победы`}>
+                    <CustomSectionOne id={`victory`} descSection={`Достижения`}>
                         <Victory/>
                     </CustomSectionOne>
                 </div>
