@@ -4,7 +4,7 @@
     "color": "--color-trainer-100",
     "trainer": {
       "name": "Хасанов Руслан Альбертович",
-      "phone": "8 (922) 255-66-98",
+      "phone": "+7 (922) 255-66-98",
       "img": "image6.jpg",
       "chatId": "VITE_CHAT_ID_100"
     },
@@ -37,7 +37,7 @@
     "color": "--color-trainer-101",
     "trainer": {
       "name": "Аксенюк Павел Евгеньевич",
-      "phone": "8 (922) 255-66-98",
+      "phone": "+7 (963) 077-77-85",
       "img": "image4.jpg",
       "chatId": "VITE_CHAT_ID_101"
     },
@@ -70,8 +70,8 @@
     "color": "--color-trainer-102",
     "trainer": {
       "name": "Михтахов Камиль Рамильевич",
-      "phone": "8 (922) 255-66-98",
-      "img": "image5.jpg",
+      "phone": "+7 (909) 307-55-76",
+      "img": "",
       "chatId": "VITE_CHAT_ID_102"
     },
     "price_list": {

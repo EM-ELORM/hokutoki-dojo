@@ -31,12 +31,23 @@ export const TrainerModal = () => {
 
                             <div className={`center-header-trainer-modal`}>
                                 <div className={`pos-header-trainer-modal`}>
-                                    <div
-                                        className={`img-modal-trainer`}
-                                        style={{
-                                            backgroundImage: `url('${getImageUrl(`${trainer?.trainer.img}`, `jpg`)}')`
-                                        }}
-                                    ></div>
+                                    {trainer?.trainer.img ? (
+                                        <div
+                                            className={`img-modal-trainer`}
+                                            style={{
+                                                backgroundImage: `url('${getImageUrl(trainer.trainer.img, "jpg")}')`
+                                            }}
+                                        ></div>
+                                    ) : (
+                                        <div
+                                            className={`img-modal-trainer`}
+                                            style={{
+                                                backgroundImage: `url('${getImageUrl('no-img.png', "png")}')`,
+                                                width: `150px`,
+                                                height: `150px`,
+                                            }}
+                                        ></div>
+                                    )}
                                     <div className={`pos-but-header-trainer-modal`}>
                                         <button
                                             className={`btn-trainer-modal`}
